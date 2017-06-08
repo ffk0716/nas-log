@@ -13,7 +13,7 @@ Rotation Rate:    5400 rpm
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Jun  8 21:45:44 2017 CST
+Local Time is:    Thu Jun  8 22:23:39 2017 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -68,7 +68,7 @@ ID# ATTRIBUTE_NAME                                                   FLAG     VA
  12 Power_Cycle_Count                                                0x0032   100   100   000    Old_age   Always       -       9
 192 Power-Off_Retract_Count                                          0x0032   200   200   000    Old_age   Always       -       1
 193 Load_Cycle_Count                                                 0x0032   200   200   000    Old_age   Always       -       22
-194 Temperature_Celsius                                              0x0022   121   111   000    Old_age   Always       -       29
+194 Temperature_Celsius                                              0x0022   120   111   000    Old_age   Always       -       30
 196 Reallocated_Event_Count                                          0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector                                           0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable                                            0x0030   100   253   000    Old_age   Offline      -       0
