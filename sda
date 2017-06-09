@@ -1,4 +1,4 @@
-smartctl 6.5 (build date Apr  5 2017) [x86_64-linux-3.10.102] (local build)
+smartctl 6.5 (build date Apr 28 2017) [x86_64-linux-3.10.102] (local build)
 Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org
 
 === START OF INFORMATION SECTION ===
@@ -12,7 +12,7 @@ Sector Sizes:     512 bytes logical, 4096 bytes physical
 Device is:        In smartctl database [for details use: -P show]
 ATA Version is:   ACS-2 (minor revision not indicated)
 SATA Version is:  SATA 3.0, 6.0 Gb/s (current: 3.0 Gb/s)
-Local Time is:    Thu Jun  8 22:23:39 2017 CST
+Local Time is:    Fri Jun  9 21:16:42 2017 CST
 SMART support is: Available - device has SMART capability.
 SMART support is: Enabled
 
@@ -23,8 +23,9 @@ General SMART Values:
 Offline data collection status:  (0x00)	Offline data collection activity
 					was never started.
 					Auto Offline Data Collection: Disabled.
-Self-test execution status:      ( 247)	Self-test routine in progress...
-					70% of test remaining.
+Self-test execution status:      (   0)	The previous self-test routine completed
+					without error or no self-test has ever 
+					been run.
 Total time to complete Offline 
 data collection: 		(39360) seconds.
 Offline data collection
@@ -56,17 +57,17 @@ SMART Attributes Data Structure revision number: 16
 Vendor Specific SMART Attributes with Thresholds:
 ID# ATTRIBUTE_NAME                                                   FLAG     VALUE WORST THRESH TYPE      UPDATED  WHEN_FAILED RAW_VALUE
   1 Raw_Read_Error_Rate                                              0x002f   200   200   051    Pre-fail  Always       -       4
-  3 Spin_Up_Time                                                     0x0027   176   175   021    Pre-fail  Always       -       6158
-  4 Start_Stop_Count                                                 0x0032   100   100   000    Old_age   Always       -       868
+  3 Spin_Up_Time                                                     0x0027   175   175   021    Pre-fail  Always       -       6208
+  4 Start_Stop_Count                                                 0x0032   100   100   000    Old_age   Always       -       878
   5 Reallocated_Sector_Ct                                            0x0033   200   200   140    Pre-fail  Always       -       0
-  7 Seek_Error_Rate                                                  0x002e   200   200   000    Old_age   Always       -       0
-  9 Power_On_Hours                                                   0x0032   083   083   000    Old_age   Always       -       13046
+  7 Seek_Error_Rate                                                  0x002e   100   253   000    Old_age   Always       -       0
+  9 Power_On_Hours                                                   0x0032   083   083   000    Old_age   Always       -       13069
  10 Spin_Retry_Count                                                 0x0032   100   100   000    Old_age   Always       -       0
  11 Calibration_Retry_Count                                          0x0032   100   100   000    Old_age   Always       -       0
- 12 Power_Cycle_Count                                                0x0032   100   100   000    Old_age   Always       -       149
-192 Power-Off_Retract_Count                                          0x0032   200   200   000    Old_age   Always       -       14
-193 Load_Cycle_Count                                                 0x0032   200   200   000    Old_age   Always       -       853
-194 Temperature_Celsius                                              0x0022   119   104   000    Old_age   Always       -       31
+ 12 Power_Cycle_Count                                                0x0032   100   100   000    Old_age   Always       -       159
+192 Power-Off_Retract_Count                                          0x0032   200   200   000    Old_age   Always       -       15
+193 Load_Cycle_Count                                                 0x0032   200   200   000    Old_age   Always       -       862
+194 Temperature_Celsius                                              0x0022   118   104   000    Old_age   Always       -       32
 196 Reallocated_Event_Count                                          0x0032   200   200   000    Old_age   Always       -       0
 197 Current_Pending_Sector                                           0x0032   200   200   000    Old_age   Always       -       0
 198 Offline_Uncorrectable                                            0x0030   100   253   000    Old_age   Offline      -       0
